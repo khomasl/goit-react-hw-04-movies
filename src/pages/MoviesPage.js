@@ -7,7 +7,6 @@ import { notifyError } from '../components/notify'
 
 export default function MoviesPage() {
   const [movies, setMovies] = useState(null)
-  //const [searchValue, setSearchValue] = useState('')
   const location = useLocation()
   const history = useHistory()
   const searchParam = new URLSearchParams(location.search).get('query') ?? ''

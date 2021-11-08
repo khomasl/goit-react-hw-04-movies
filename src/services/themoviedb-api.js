@@ -8,21 +8,15 @@ const END_POINTS = {
   GET_TRENDING: `${BASE_URL}trending/movie/day`, // список самых популярных фильмов на сегодня для создания коллекции на главной странице.
   SEARCH_MOVIES: `${BASE_URL}search/movie`, // поиск кинофильма по ключевому слову на странице фильмов.
   GET_MOVIE_DETAILS: `${BASE_URL}movie`, // запрос полной информации о фильме для страницы кинофильма.',
-  //   GET_MOVIE_CREDITS: `${BASE_URL}movies/get-movie-credits`, //запрос информации о актёрском составе для страницы кинофильма.',
-  //   GET_MOVIE_REVIEWS: `${BASE_URL}movies/get-movie-reviews`, //запрос обзоров для страницы кинофильма.',
 }
 
 async function fetchWithErrorHandling(url = '', config = {}) {
   try {
     const result = await axios.get(url, config)
-    // console.log('result.data :>> ', await result.data)
     return await result.data
   } catch (err) {
     return notifyError(err.message)
   }
-  //   return response.ok
-  //     ? await response.json()
-  //     : Promise.reject(new Error('Not found'))
 }
 
 export function fetchMovies() {
