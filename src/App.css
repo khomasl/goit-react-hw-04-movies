@@ -1,0 +1,22 @@
+/*
+ * Стили компонента App
+ */
+/* .App {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 16px;
+  padding-bottom: 24px;
+} */
+.containerApp {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  /* 
+  border-bottom: 3px solid lightgrey; */
+}
+
+.Loader {
+  margin: auto;
+}

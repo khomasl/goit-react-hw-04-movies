@@ -1,0 +1,11 @@
+.movieDetails {
+  display: flex;
+}
+
+.movieInfo {
+  padding: 10px;
+}
+
+.img {
+  padding: 10px;
+}
