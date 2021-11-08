@@ -1,0 +1,2 @@
+(this["webpackJsonpgoit-react-hw-04-movies"]=this["webpackJsonpgoit-react-hw-04-movies"]||[]).push([[8],{106:function(e,t,r){"use strict";r.r(t),r.d(t,"default",(function(){return n}));var s=r(1);function n(e){var t=e.reviews;return Object(s.jsx)("ul",{children:t.results.length>0?t.results.map((function(e){return Object(s.jsxs)("li",{children:[Object(s.jsxs)("h3",{children:["Author: ",e.author]}),Object(s.jsx)("p",{children:e.content})]},e.id)})):Object(s.jsx)("p",{children:"We don't have any reviews for this movies"})})}}}]);
+//# sourceMappingURL=8.244184d1.chunk.js.map
